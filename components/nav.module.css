@@ -1,0 +1,30 @@
+.container{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgb(59, 36, 83);
+    align-content: center;
+    margin-bottom: 5px;
+    border-width: 2px;
+    border-style:ridge;
+    color: rgb(255, 203, 134);
+    text-shadow: crimson 2px 0 3px;
+     filter: drop-shadow(0 0 0.75rem crimson);
+     border-radius: 8px;
+}
+.nesContainer{
+    margin-right: 50px;
+}
+.homelink{
+    margin-right: 20px;
+    border: 2px solid rgb(83, 77, 77);
+    padding: 6px;
+    border-radius: 10px;
+}
+.cart{
+    border: 2px solid rgb(83, 77, 77);
+    padding: 6px;
+    border-radius: 10px;
+    cursor: pointer;
+}
