@@ -1,4 +1,4 @@
-import classes from '../components/css.module.css';
+import classes from './css.module.css';
 import { useDispatch } from 'react-redux';
 import { remove } from '../store/cartSlice';
 const Display = (props) => {
@@ -12,7 +12,7 @@ const Display = (props) => {
                 <div key={item.id} className={classes.cartCard}>
                     <img src={item.image} className={classes.imgp} alt="Image Not Found" />
                     <h5>{item.title}</h5>
-                    <h5>$ {item.price}</h5>
+                    <h5>${item.price}</h5>
                     <button className={classes.btn} onClick={() => Handle(item.id)}>Remove</button>
                 </div>
             )}
